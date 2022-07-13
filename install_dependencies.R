@@ -14,6 +14,7 @@ cat("\nCXX14FLAGS=-O3 -march=native -mtune=native -fPIC",
 
 install.versions("devtools", '2.4.3')
 install.versions("readxl", "1.3.1")
+install.dates("shiny", "2020-10-23")
 install.versions("graphicalVAR", "0.2.4")
 install.versions("tidyverse", "1.3.1")
 install.versions("qgraph", "1.9")
