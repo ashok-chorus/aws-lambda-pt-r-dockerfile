@@ -1,7 +1,7 @@
 FROM public.ecr.aws/lambda/python:3.8-x86_64
 
 # TODO: Update this version from 4.1.2 to 4.1.3 for local run
-ENV R_VERSION=4.0.5
+ENV R_VERSION=4.1.3
 
 RUN yum -y install wget binutils yum-utils tar
 RUN yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
